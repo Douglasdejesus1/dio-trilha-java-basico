@@ -1,5 +1,5 @@
 package tipos;
-
+import java.util.Scanner;
 public class MinhaClasse {
 	public static void main(String[] args) {
 		
@@ -14,6 +14,20 @@ public class MinhaClasse {
 	
 	byte mes = (byte) ano;
 	
-	System.out.println(mes);
+//	System.out.println(mes);
+	
+
+
+
+	System.out.printf("%s%n","Fábio dos Reis");
+	System.out.printf("%s%d\n", "Rua das Gloxínias, ", 354);
+	System.out.println("CEP 06532-052");
+	System.out.printf("%s - %s", "São Paulo", "SP");
+	System.out.println("\n");
+	System.out.print("fabiodosreis@bosontreinamentos.com.br");
+
+	    
+	
+
 	}
 }
