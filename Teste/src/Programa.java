@@ -8,8 +8,14 @@ public class Programa {
 			int b = 2;
 			int n = 10;
 			int soma = 0;
-			for (int i = 0; i < n; i++) {
-				System.out.print(i);
+			for (int i = 0; i<n; i++) {
+				soma=0;
+				for(int x=0;x<=i;x++) {
+					
+					soma+=Math.pow(2,x)*b;
+				}
+				System.out.print(a+soma);
+				System.out.print(" ");
 			}
 			System.out.println();
 
