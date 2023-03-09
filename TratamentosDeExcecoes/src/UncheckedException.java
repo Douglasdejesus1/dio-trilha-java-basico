@@ -15,9 +15,11 @@ public class UncheckedException {
             } catch (NumberFormatException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "Entrada inválida, informe um número inteiro! " + e.getMessage());
+                System.out.println("O código continua...");
             } catch (ArithmeticException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "Impossível dividir um número por 0.");
+                System.out.println("O código continua...");
             }
             finally {
                 System.out.println("Chegou no finally!");
@@ -25,7 +27,6 @@ public class UncheckedException {
         } while(continueLooping);
 
 
-        System.out.println("O código continua...");
     }
 
     public static int dividir(int a, int b) {
